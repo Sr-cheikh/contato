@@ -1,0 +1,79 @@
+@import url(./global.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 45px;
+  background-color: #a5a3a3;
+  width: 500px;
+}
+
+main h3{
+  color: var(--primary-color);
+  font: var(--text-lg);
+  margin: 2rem;
+}
+
+span{
+  color: red;
+  font-size: 20px;
+}
+
+main form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+form label{
+  color: var(--primary-color);
+  font-size: 17px;
+  margin: 4px;
+}
+form input{
+  padding: 15px;
+  outline: none;
+  border: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+form input:focus,
+form textarea:focus{
+  border-radius: 16px;
+}
+form textarea{
+  padding: 10px;
+  outline: none;
+  border: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+form button{
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  transition: all 1s;
+}
+
+form button:hover{
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  border-radius: 16px;
+}

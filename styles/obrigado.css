@@ -1,0 +1,23 @@
+@import url(./global.css);
+
+.thanks{
+  display: flex;
+  min-height: 60vh;
+  margin-top: 160px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: var(--text-lg)
+}
+
+@media (max-width: 900px){
+  .thanks{
+    font: var(--text-md);
+  }
+}
+
+@media (max-width: 540px){
+  .thanks{
+    font: var(--text-xm);
+  }
+}
